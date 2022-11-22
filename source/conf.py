@@ -23,9 +23,10 @@ language = 'zh_CN'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+html_theme = 'alabaster'
 
-import sphinx_bernard_theme
-html_theme = 'sphinx_bernard_theme'
-html_theme_path = [sphinx_bernard_theme.get_html_theme_path()]
+# import sphinx_bernard_theme
+# html_theme = 'sphinx_bernard_theme'
+# html_theme_path = [sphinx_bernard_theme.get_html_theme_path()]
 
 html_static_path = ['_static']
